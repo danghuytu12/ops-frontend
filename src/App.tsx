@@ -21,11 +21,11 @@ const App = () => {
 						<h1 className="text-gray-800 fs-2qx fw-bold text-center mb-7">Fast, Efficient and Productive</h1>
 						
 						
-						<div className="text-gray-600 fs-base text-center fw-semibold">In this kind of post,
+						{/* <div className="text-gray-600 fs-base text-center fw-semibold">In this kind of post,
 						<a href="#" className="opacity-75-hover text-primary me-1">the blogger</a>introduces a person they’ve interviewed
 						<br />and provides some background information about
 						<a href="#" className="opacity-75-hover text-primary me-1">the interviewee</a>and their
-						<br />work following this is a transcript of the interview.</div>
+						<br />work following this is a transcript of the interview.</div> */}
 						
 					</div>
 					
@@ -56,17 +56,17 @@ const App = () => {
 										
 										<div className="col-md-6">
 											
-											<a href="#" className="btn btn-flex btn-outline btn-text-gray-700 btn-active-color-primary bg-state-light flex-center text-nowrap w-100">
-											<img alt="Logo" src="assets/media/svg/brand-logos/google-icon.svg" className="h-15px me-3" />Sign in with Google</a>
+											{/* <a href="#" className="btn btn-flex btn-outline btn-text-gray-700 btn-active-color-primary bg-state-light flex-center text-nowrap w-100">
+											<img alt="Logo" src="assets/media/svg/brand-logos/google-icon.svg" className="h-15px me-3" />Sign in with Google</a> */}
 											
 										</div>
 										
 										
 										<div className="col-md-6">
 											
-											<a href="#" className="btn btn-flex btn-outline btn-text-gray-700 btn-active-color-primary bg-state-light flex-center text-nowrap w-100">
+											{/* <a href="#" className="btn btn-flex btn-outline btn-text-gray-700 btn-active-color-primary bg-state-light flex-center text-nowrap w-100">
 											<img alt="Logo" src="assets/media/svg/brand-logos/apple-black.svg" className="theme-light-show h-15px me-3" />
-											<img alt="Logo" src="assets/media/svg/brand-logos/apple-black-dark.svg" className="theme-dark-show h-15px me-3" />Sign in with Apple</a>
+											<img alt="Logo" src="assets/media/svg/brand-logos/apple-black-dark.svg" className="theme-dark-show h-15px me-3" />Sign in with Apple</a> */}
 											
 										</div>
 										
@@ -134,52 +134,52 @@ const App = () => {
 									<div className="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-semibold w-200px py-4 fs-7" data-kt-menu="true" id="kt_auth_lang_menu">
 										
 										<div className="menu-item px-3">
-											<a href="#" className="menu-link d-flex px-5" data-kt-lang="English">
+											{/* <a href="#" className="menu-link d-flex px-5" data-kt-lang="English">
 												<span className="symbol symbol-20px me-4">
 													<img data-kt-element="lang-flag" className="rounded-1" src="assets/media/flags/united-states.svg" alt="" />
 												</span>
 												<span data-kt-element="lang-name">English</span>
-											</a>
+											</a> */}
 										</div>
 										
 										
 										<div className="menu-item px-3">
-											<a href="#" className="menu-link d-flex px-5" data-kt-lang="Spanish">
+											{/* <a href="#" className="menu-link d-flex px-5" data-kt-lang="Spanish">
 												<span className="symbol symbol-20px me-4">
 													<img data-kt-element="lang-flag" className="rounded-1" src="assets/media/flags/spain.svg" alt="" />
 												</span>
 												<span data-kt-element="lang-name">Spanish</span>
-											</a>
+											</a> */}
 										</div>
 										
 										
 										<div className="menu-item px-3">
-											<a href="#" className="menu-link d-flex px-5" data-kt-lang="German">
+											{/* <a href="#" className="menu-link d-flex px-5" data-kt-lang="German">
 												<span className="symbol symbol-20px me-4">
 													<img data-kt-element="lang-flag" className="rounded-1" src="assets/media/flags/germany.svg" alt="" />
 												</span>
 												<span data-kt-element="lang-name">German</span>
-											</a>
+											</a> */}
 										</div>
 										
 										
 										<div className="menu-item px-3">
-											<a href="#" className="menu-link d-flex px-5" data-kt-lang="Japanese">
+											{/* <a href="#" className="menu-link d-flex px-5" data-kt-lang="Japanese">
 												<span className="symbol symbol-20px me-4">
 													<img data-kt-element="lang-flag" className="rounded-1" src="assets/media/flags/japan.svg" alt="" />
 												</span>
 												<span data-kt-element="lang-name">Japanese</span>
-											</a>
+											</a> */}
 										</div>
 										
 										
 										<div className="menu-item px-3">
-											<a href="#" className="menu-link d-flex px-5" data-kt-lang="French">
+											{/* <a href="#" className="menu-link d-flex px-5" data-kt-lang="French">
 												<span className="symbol symbol-20px me-4">
 													<img data-kt-element="lang-flag" className="rounded-1" src="assets/media/flags/france.svg" alt="" />
 												</span>
 												<span data-kt-element="lang-name">French</span>
-											</a>
+											</a> */}
 										</div>
 										
 									</div>
