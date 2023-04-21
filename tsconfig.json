@@ -14,7 +14,19 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "paths": {
+      "@apis/*": ["./src/apis/*"],
+      "@_metronic/*": ["./src/_metronic/*"],
+      "@components/*": ["./src/components/*"],
+      "@elements/*": ["./src/elements/*"],
+      "@constants/*": ["./src/constants/*"],
+      "@hooks/*": ["./src/hooks/*"],
+      "@helpers/*": ["./src/helpers/*"],
+      "@services/*": ["./src/services/*"],
+      "@utils/*": ["./src/utils/*"],
+      "@styles/*": ["./styles/*"],
+    },
   },
   // "include": ["src"]
 }
