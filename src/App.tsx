@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route, Navigate, Link } from "react-router-dom";
 import Login from "./pages/login";
 import OnlineCoures from "./pages/online-courses";
 import School from "./pages/school";
-import OverviewProfile from "./pages/user/overview-profile";
+import OverviewProfile from "./pages/user-profile/overview";
 const App = () => {
   return (
     <BrowserRouter>
