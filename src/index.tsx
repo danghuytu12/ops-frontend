@@ -12,7 +12,6 @@ import ReactDOM from 'react-dom/client';
  **/
 import './_metronic/assets/sass/style.scss'
 import './_metronic/assets/sass/plugins.scss'
-import './_metronic/assets/sass/style.react.scss'
 import  App  from './App'
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement

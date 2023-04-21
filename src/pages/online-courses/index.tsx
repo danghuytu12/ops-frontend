@@ -1433,7 +1433,1262 @@ const OnlineCoures = () => {
                         </div>
 
 
-                        <div className="app-header-separator"></div>
+                        <div className="app-header-separator">
+                        <div className="d-flex flex-column flex-column-fluid bg-white mx-auto">
+
+<div id="kt_app_toolbar" className="app-toolbar pt-6 pb-2">
+
+    <div id="kt_app_toolbar_container" className="app-container container-fluid d-flex align-items-stretch">
+
+        <div className="app-toolbar-wrapper d-flex flex-stack flex-wrap gap-4 w-100">
+
+            <div className="page-title d-flex flex-column justify-content-center gap-1 me-3">
+
+                <h1 className="page-heading d-flex flex-column justify-content-center text-dark fw-bold fs-3 m-0">Online Courses</h1>
+
+
+                <ul className="breadcrumb breadcrumb-separatorless fw-semibold fs-7 my-0">
+
+                    <li className="breadcrumb-item text-muted">
+                        <a href="../../demo39/dist/index.html" className="text-muted text-hover-primary">Home</a>
+                    </li>
+
+
+                    <li className="breadcrumb-item">
+                        <span className="bullet bg-gray-400 w-5px h-2px"></span>
+                    </li>
+
+
+                    <li className="breadcrumb-item text-muted">Dashboards</li>
+
+                </ul>
+
+            </div>
+
+
+            <div className="d-flex align-items-center gap-2 gap-lg-3">
+                <a href="#" className="btn btn-flex btn-outline btn-color-gray-700 btn-active-color-primary bg-body h-40px fs-7 fw-bold" data-bs-toggle="modal" data-bs-target="#kt_modal_view_users">Add Member</a>
+                <a href="#" className="btn btn-flex btn-primary h-40px fs-7 fw-bold" data-bs-toggle="modal" data-bs-target="#kt_modal_create_campaign">New Campaign</a>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<div id="kt_app_content" className="app-content flex-column-fluid">
+
+    <div id="kt_app_content_container" className="app-container container-fluid">
+
+        <div className="row g-5 g-xl-10">
+
+            <div className="col-xl-4 mb-xl-10">
+
+                <div className="card card-flush h-xl-100">
+
+                    <div className="card-header rounded bgi-no-repeat bgi-size-cover bgi-position-y-top bgi-position-x-center align-items-start h-250px"
+                        //  style="background-image:url('assets/media/svg/shapes/top-green.png"
+                        style={{ backgroundImage: `url(${topGreen})` }}
+                        data-bs-theme="light">
+
+                        <h3 className="card-title align-items-start flex-column text-white pt-15">
+                            <span className="fw-bold fs-2x mb-3">My Tasks</span>
+                            <div className="fs-4 text-white">
+                                <span className="opacity-75">You have</span>
+                                <span className="position-relative d-inline-block">
+                                    <a href="../../demo39/dist/pages/user-profile/projects.html" className="link-white opacity-75-hover fw-bold d-block mb-1">4 tasks</a>
+
+                                    <span className="position-absolute opacity-50 bottom-0 start-0 border-2 border-body border-bottom w-100"></span>
+
+                                </span>
+                                <span className="opacity-75">to comlete</span>
+                            </div>
+                        </h3>
+
+
+                        <div className="card-toolbar pt-5">
+
+                            <button className="btn btn-sm btn-icon btn-active-color-primary btn-color-white bg-white bg-opacity-25 bg-hover-opacity-100 bg-hover-white bg-active-opacity-25 w-20px h-20px" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end" data-kt-menu-overflow="true">
+                                <i className="ki-outline ki-dots-square fs-4"></i>
+                            </button>
+
+                            <div className="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-semibold w-200px" data-kt-menu="true">
+
+                                <div className="menu-item px-3">
+                                    <div className="menu-content fs-6 text-dark fw-bold px-3 py-4">Quick Actions</div>
+                                </div>
+
+
+                                <div className="separator mb-3 opacity-75"></div>
+
+
+                                <div className="menu-item px-3">
+                                    <a href="#" className="menu-link px-3">New Ticket</a>
+                                </div>
+
+
+                                <div className="menu-item px-3">
+                                    <a href="#" className="menu-link px-3">New Customer</a>
+                                </div>
+
+
+                                <div className="menu-item px-3" data-kt-menu-trigger="hover" data-kt-menu-placement="right-start">
+
+                                    <a href="#" className="menu-link px-3">
+                                        <span className="menu-title">New Group</span>
+                                        <span className="menu-arrow"></span>
+                                    </a>
+
+
+                                    <div className="menu-sub menu-sub-dropdown w-175px py-4">
+
+                                        <div className="menu-item px-3">
+                                            <a href="#" className="menu-link px-3">Admin Group</a>
+                                        </div>
+
+
+                                        <div className="menu-item px-3">
+                                            <a href="#" className="menu-link px-3">Staff Group</a>
+                                        </div>
+
+
+                                        <div className="menu-item px-3">
+                                            <a href="#" className="menu-link px-3">Member Group</a>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+                                <div className="menu-item px-3">
+                                    <a href="#" className="menu-link px-3">New Contact</a>
+                                </div>
+
+
+                                <div className="separator mt-3 opacity-75"></div>
+
+
+                                <div className="menu-item px-3">
+                                    <div className="menu-content px-3 py-3">
+                                        <a className="btn btn-primary btn-sm px-4" href="#">Generate Reports</a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+
+                    <div className="card-body mt-n20">
+
+                        <div className="mt-n20 position-relative">
+
+                            <div className="row g-3 g-lg-6">
+
+                                <div className="col-6">
+
+                                    <div className="bg-gray-100 bg-opacity-70 rounded-2 px-6 py-5">
+
+                                        <div className="symbol symbol-30px me-5 mb-8">
+                                            <span className="symbol-label">
+                                                <i className="ki-outline ki-flask fs-1 text-primary"></i>
+                                            </span>
+                                        </div>
+
+
+                                        <div className="m-0">
+
+                                            <span className="text-gray-700 fw-bolder d-block fs-2qx lh-1 ls-n1 mb-1">37</span>
+
+
+                                            <span className="text-gray-500 fw-semibold fs-6">Courses</span>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+                                <div className="col-6">
+
+                                    <div className="bg-gray-100 bg-opacity-70 rounded-2 px-6 py-5">
+
+                                        <div className="symbol symbol-30px me-5 mb-8">
+                                            <span className="symbol-label">
+                                                <i className="ki-outline ki-bank fs-1 text-primary"></i>
+                                            </span>
+                                        </div>
+
+
+                                        <div className="m-0">
+
+                                            <span className="text-gray-700 fw-bolder d-block fs-2qx lh-1 ls-n1 mb-1">6</span>
+
+
+                                            <span className="text-gray-500 fw-semibold fs-6">Certificates</span>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+                                <div className="col-6">
+
+                                    <div className="bg-gray-100 bg-opacity-70 rounded-2 px-6 py-5">
+
+                                        <div className="symbol symbol-30px me-5 mb-8">
+                                            <span className="symbol-label">
+                                                <i className="ki-outline ki-award fs-1 text-primary"></i>
+                                            </span>
+                                        </div>
+
+
+                                        <div className="m-0">
+
+                                            <span className="text-gray-700 fw-bolder d-block fs-2qx lh-1 ls-n1 mb-1">4,7</span>
+
+
+                                            <span className="text-gray-500 fw-semibold fs-6">Avg. Score</span>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+                                <div className="col-6">
+
+                                    <div className="bg-gray-100 bg-opacity-70 rounded-2 px-6 py-5">
+
+                                        <div className="symbol symbol-30px me-5 mb-8">
+                                            <span className="symbol-label">
+                                                <i className="ki-outline ki-timer fs-1 text-primary"></i>
+                                            </span>
+                                        </div>
+
+
+                                        <div className="m-0">
+
+                                            <span className="text-gray-700 fw-bolder d-block fs-2qx lh-1 ls-n1 mb-1">822</span>
+
+
+                                            <span className="text-gray-500 fw-semibold fs-6">Hours Learned</span>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div className="col-xl-8 mb-5 mb-xl-10">
+
+                <div className="row g-5 g-xl-10">
+
+                    <div className="col-xl-6 mb-xl-10">
+
+                        <div id="kt_sliders_widget_1_slider" className="card card-flush carousel carousel-custom carousel-stretch slide h-xl-100" data-bs-ride="carousel" data-bs-interval="5000">
+
+                            <div className="card-header pt-5">
+
+                                <h4 className="card-title d-flex align-items-start flex-column">
+                                    <span className="card-label fw-bold text-gray-800">Today’s Course</span>
+                                    <span className="text-gray-400 mt-1 fw-bold fs-7">4 lessons, 3 hours 45 minutes</span>
+                                </h4>
+
+
+                                <div className="card-toolbar">
+
+                                    <ol className="p-0 m-0 carousel-indicators carousel-indicators-bullet carousel-indicators-active-primary">
+                                        <li data-bs-target="#kt_sliders_widget_1_slider" data-bs-slide-to="0" className="active ms-1"></li>
+                                        <li data-bs-target="#kt_sliders_widget_1_slider" data-bs-slide-to="1" className="ms-1"></li>
+                                        <li data-bs-target="#kt_sliders_widget_1_slider" data-bs-slide-to="2" className="ms-1"></li>
+                                    </ol>
+
+                                </div>
+
+                            </div>
+
+
+                            <div className="card-body py-6">
+
+                                <div className="carousel-inner mt-n5">
+
+                                    <div className="carousel-item active show">
+
+                                        <div className="d-flex align-items-center mb-5">
+
+                                            <div className="w-80px flex-shrink-0 me-2">
+                                                <div className="min-h-auto ms-n3" id="kt_slider_widget_1_chart_1"></div>
+                                            </div>
+
+
+                                            <div className="m-0">
+
+                                                <h4 className="fw-bold text-gray-800 mb-3">Ruby on Rails</h4>
+
+
+                                                <div className="d-flex d-grid gap-5">
+
+                                                    <div className="d-flex flex-column flex-shrink-0 me-4">
+
+                                                        <span className="d-flex align-items-center fs-7 fw-bold text-gray-400 mb-2">
+                                                            <i className="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>3 Topics</span>
+
+
+                                                        <span className="d-flex align-items-center text-gray-400 fw-bold fs-7">
+                                                            <i className="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>1 Speakers</span>
+
+                                                    </div>
+
+
+                                                    <div className="d-flex flex-column flex-shrink-0">
+
+                                                        <span className="d-flex align-items-center fs-7 fw-bold text-gray-400 mb-2">
+                                                            <i className="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>50 Min</span>
+
+
+                                                        <span className="d-flex align-items-center text-gray-400 fw-bold fs-7">
+                                                            <i className="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>72 students</span>
+
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+
+                                        <div className="m-0">
+                                            <a href="#" className="btn btn-sm btn-light me-2 mb-2">Skip This</a>
+                                            <a href="#" className="btn btn-sm btn-primary mb-2" data-bs-toggle="modal" data-bs-target="#kt_modal_create_app">Continue</a>
+                                        </div>
+
+                                    </div>
+
+
+                                    <div className="carousel-item">
+
+                                        <div className="d-flex align-items-center mb-5">
+
+                                            <div className="w-80px flex-shrink-0 me-2">
+                                                <div className="min-h-auto ms-n3" id="kt_slider_widget_1_chart_2"></div>
+                                            </div>
+
+
+                                            <div className="m-0">
+
+                                                <h4 className="fw-bold text-gray-800 mb-3">Ruby on Rails</h4>
+
+
+                                                <div className="d-flex d-grid gap-5">
+
+                                                    <div className="d-flex flex-column flex-shrink-0 me-4">
+
+                                                        <span className="d-flex align-items-center fs-7 fw-bold text-gray-400 mb-2">
+                                                            <i className="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>3 Topics</span>
+
+
+                                                        <span className="d-flex align-items-center text-gray-400 fw-bold fs-7">
+                                                            <i className="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>1 Speakers</span>
+
+                                                    </div>
+
+
+                                                    <div className="d-flex flex-column flex-shrink-0">
+
+                                                        <span className="d-flex align-items-center fs-7 fw-bold text-gray-400 mb-2">
+                                                            <i className="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>50 Min</span>
+
+
+                                                        <span className="d-flex align-items-center text-gray-400 fw-bold fs-7">
+                                                            <i className="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>72 students</span>
+
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+
+                                        <div className="m-0">
+                                            <a href="#" className="btn btn-sm btn-light me-2 mb-2">Skip This</a>
+                                            <a href="#" className="btn btn-sm btn-primary mb-2" data-bs-toggle="modal" data-bs-target="#kt_modal_create_app">Continue</a>
+                                        </div>
+
+                                    </div>
+
+
+                                    <div className="carousel-item">
+
+                                        <div className="d-flex align-items-center mb-5">
+
+                                            <div className="w-80px flex-shrink-0 me-2">
+                                                <div className="min-h-auto ms-n3" id="kt_slider_widget_1_chart_3"></div>
+                                            </div>
+
+
+                                            <div className="m-0">
+
+                                                <h4 className="fw-bold text-gray-800 mb-3">Ruby on Rails</h4>
+
+
+                                                <div className="d-flex d-grid gap-5">
+
+                                                    <div className="d-flex flex-column flex-shrink-0 me-4">
+
+                                                        <span className="d-flex align-items-center fs-7 fw-bold text-gray-400 mb-2">
+                                                            <i className="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>3 Topics</span>
+
+
+                                                        <span className="d-flex align-items-center text-gray-400 fw-bold fs-7">
+                                                            <i className="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>1 Speakers</span>
+
+                                                    </div>
+
+
+                                                    <div className="d-flex flex-column flex-shrink-0">
+
+                                                        <span className="d-flex align-items-center fs-7 fw-bold text-gray-400 mb-2">
+                                                            <i className="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>50 Min</span>
+
+
+                                                        <span className="d-flex align-items-center text-gray-400 fw-bold fs-7">
+                                                            <i className="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>72 students</span>
+
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+
+                                        <div className="m-0">
+                                            <a href="#" className="btn btn-sm btn-light me-2 mb-2">Skip This</a>
+                                            <a href="#" className="btn btn-sm btn-primary mb-2" data-bs-toggle="modal" data-bs-target="#kt_modal_create_app">Continue</a>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div className="col-xl-6 mb-5 mb-xl-10">
+
+                        <div id="kt_sliders_widget_2_slider" className="card card-flush carousel carousel-custom carousel-stretch slide h-xl-100" data-bs-ride="carousel" data-bs-interval="5500">
+
+                            <div className="card-header pt-5">
+
+                                <h4 className="card-title d-flex align-items-start flex-column">
+                                    <span className="card-label fw-bold text-gray-800">Today’s Events</span>
+                                    <span className="text-gray-400 mt-1 fw-bold fs-7">24 events on all activities</span>
+                                </h4>
+
+
+                                <div className="card-toolbar">
+
+                                    <ol className="p-0 m-0 carousel-indicators carousel-indicators-bullet carousel-indicators-active-success">
+                                        <li data-bs-target="#kt_sliders_widget_2_slider" data-bs-slide-to="0" className="active ms-1"></li>
+                                        <li data-bs-target="#kt_sliders_widget_2_slider" data-bs-slide-to="1" className="ms-1"></li>
+                                        <li data-bs-target="#kt_sliders_widget_2_slider" data-bs-slide-to="2" className="ms-1"></li>
+                                    </ol>
+
+                                </div>
+
+                            </div>
+
+
+                            <div className="card-body py-6">
+
+                                <div className="carousel-inner">
+
+                                    <div className="carousel-item active show">
+
+                                        <div className="d-flex align-items-center mb-9">
+
+                                            <div className="symbol symbol-70px symbol-circle me-5">
+                                                <span className="symbol-label bg-light-success">
+                                                    <i className="ki-outline ki-abstract-24 fs-3x text-success"></i>
+                                                </span>
+                                            </div>
+
+
+                                            <div className="m-0">
+
+                                                <h4 className="fw-bold text-gray-800 mb-3">Ruby on Rails</h4>
+
+
+                                                <div className="d-flex d-grid gap-5">
+
+                                                    <div className="d-flex flex-column flex-shrink-0 me-4">
+
+                                                        <span className="d-flex align-items-center fs-7 fw-bold text-gray-400 mb-2">
+                                                            <i className="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>5 Topics</span>
+
+
+                                                        <span className="d-flex align-items-center text-gray-400 fw-bold fs-7">
+                                                            <i className="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>1 Speakers</span>
+
+                                                    </div>
+
+
+                                                    <div className="d-flex flex-column flex-shrink-0">
+
+                                                        <span className="d-flex align-items-center fs-7 fw-bold text-gray-400 mb-2">
+                                                            <i className="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>60 Min</span>
+
+
+                                                        <span className="d-flex align-items-center text-gray-400 fw-bold fs-7">
+                                                            <i className="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>137 students</span>
+
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+
+                                        <div className="m-0">
+                                            <a href="#" className="btn btn-sm btn-light me-2 mb-2">Details</a>
+                                            <a href="#" className="btn btn-sm btn-success mb-2" data-bs-toggle="modal" data-bs-target="#kt_modal_create_campaign">Join Event</a>
+                                        </div>
+
+                                    </div>
+
+
+                                    <div className="carousel-item">
+
+                                        <div className="d-flex align-items-center mb-9">
+
+                                            <div className="symbol symbol-70px symbol-circle me-5">
+                                                <span className="symbol-label bg-light-danger">
+                                                    <i className="ki-outline ki-abstract-25 fs-3x text-danger"></i>
+                                                </span>
+                                            </div>
+
+
+                                            <div className="m-0">
+
+                                                <h4 className="fw-bold text-gray-800 mb-3">Ruby on Rails</h4>
+
+
+                                                <div className="d-flex d-grid gap-5">
+
+                                                    <div className="d-flex flex-column flex-shrink-0 me-4">
+
+                                                        <span className="d-flex align-items-center fs-7 fw-bold text-gray-400 mb-2">
+                                                            <i className="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>12 Topics</span>
+
+
+                                                        <span className="d-flex align-items-center text-gray-400 fw-bold fs-7">
+                                                            <i className="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>1 Speakers</span>
+
+                                                    </div>
+
+
+                                                    <div className="d-flex flex-column flex-shrink-0">
+
+                                                        <span className="d-flex align-items-center fs-7 fw-bold text-gray-400 mb-2">
+                                                            <i className="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>50 Min</span>
+
+
+                                                        <span className="d-flex align-items-center text-gray-400 fw-bold fs-7">
+                                                            <i className="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>72 students</span>
+
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+
+                                        <div className="m-0">
+                                            <a href="#" className="btn btn-sm btn-light me-2 mb-2">Details</a>
+                                            <a href="#" className="btn btn-sm btn-success mb-2" data-bs-toggle="modal" data-bs-target="#kt_modal_create_campaign">Join Event</a>
+                                        </div>
+
+                                    </div>
+
+
+                                    <div className="carousel-item">
+
+                                        <div className="d-flex align-items-center mb-9">
+
+                                            <div className="symbol symbol-70px symbol-circle me-5">
+                                                <span className="symbol-label bg-light-primary">
+                                                    <i className="ki-outline ki-abstract-36 fs-3x text-primary"></i>
+                                                </span>
+                                            </div>
+
+
+                                            <div className="m-0">
+
+                                                <h4 className="fw-bold text-gray-800 mb-3">Ruby on Rails</h4>
+
+
+                                                <div className="d-flex d-grid gap-5">
+
+                                                    <div className="d-flex flex-column flex-shrink-0 me-4">
+
+                                                        <span className="d-flex align-items-center fs-7 fw-bold text-gray-400 mb-2">
+                                                            <i className="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>3 Topics</span>
+
+
+                                                        <span className="d-flex align-items-center text-gray-400 fw-bold fs-7">
+                                                            <i className="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>1 Speakers</span>
+
+                                                    </div>
+
+
+                                                    <div className="d-flex flex-column flex-shrink-0">
+
+                                                        <span className="d-flex align-items-center fs-7 fw-bold text-gray-400 mb-2">
+                                                            <i className="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>50 Min</span>
+
+
+                                                        <span className="d-flex align-items-center text-gray-400 fw-bold fs-7">
+                                                            <i className="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>72 students</span>
+
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+
+                                        <div className="m-0">
+                                            <a href="#" className="btn btn-sm btn-light me-2 mb-2">Details</a>
+                                            <a href="#" className="btn btn-sm btn-success mb-2" data-bs-toggle="modal" data-bs-target="#kt_modal_create_campaign">Join Event</a>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div className="card border-transparent" style={{ backgroundColor: '#1C325E' }}>
+
+                    <div className="card-body d-flex ps-xl-15">
+
+                        <div className="m-0">
+
+                            <div className="position-relative fs-2x z-index-2 fw-bold text-white mb-7">
+                                <span className="me-2">You have got
+                                    <span className="position-relative d-inline-block text-danger">
+                                        <a href="../../demo39/dist/pages/user-profile/overview.html" className="text-danger opacity-75-hover">2300 bonus</a>
+
+                                        <span className="position-absolute opacity-50 bottom-0 start-0 border-4 border-danger border-bottom w-100"></span>
+
+                                    </span></span>points.
+                                <br />Feel free to use them in your lessons</div>
+
+
+                            <div className="mb-3">
+                                <a href='#' className="btn btn-danger fw-semibold me-2" data-bs-toggle="modal" data-bs-target="#kt_modal_upgrade_plan">Get Reward</a>
+                                <a href="../../demo39/dist/apps/support-center/overview.html" className="btn btn-color-white bg-white bg-opacity-15 bg-hover-opacity-25 fw-semibold">How to</a>
+                            </div>
+
+                        </div>
+
+
+                        <img src={sigma} className="position-absolute me-3 bottom-0 end-0 h-200px" alt="" />
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div className="row g-5 g-xl-10">
+
+            <div className="col-xl-4 mb-xl-10">
+
+                <div className="card h-xl-100">
+
+                    <div className="card-header border-0 pt-5">
+                        <h3 className="card-title align-items-start flex-column">
+                            <span className="card-label fw-bold text-dark">Recommended for you</span>
+                            <span className="text-muted mt-1 fw-semibold fs-7">8k social visitors</span>
+                        </h3>
+
+                        <div className="card-toolbar">
+                            <a href="#" className="btn btn-sm btn-light">All Courses</a>
+                        </div>
+
+                    </div>
+
+
+                    <div className="card-body pt-6">
+
+                        <div className="d-flex flex-stack">
+
+                            <div className="symbol symbol-40px me-4">
+                                <div className="symbol-label fs-2 fw-semibold bg-danger text-inverse-danger">M</div>
+                            </div>
+
+
+                            <div className="d-flex align-items-center flex-row-fluid flex-wrap">
+
+                                <div className="flex-grow-1 me-2">
+                                    <a href="../../demo39/dist/pages/user-profile/overview.html" className="text-gray-800 text-hover-primary fs-6 fw-bold">UI/UX Design</a>
+                                    <span className="text-muted fw-semibold d-block fs-7">40+ Courses</span>
+                                </div>
+
+
+                                <a href="#" className="btn btn-sm btn-icon btn-bg-light btn-active-color-primary w-30px h-30px">
+                                    <i className="ki-outline ki-arrow-right fs-2"></i>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+
+                        <div className="separator separator-dashed my-4"></div>
+
+
+                        <div className="d-flex flex-stack">
+
+                            <div className="symbol symbol-40px me-4">
+                                <div className="symbol-label fs-2 fw-semibold bg-success text-inverse-success">Q</div>
+                            </div>
+
+
+                            <div className="d-flex align-items-center flex-row-fluid flex-wrap">
+
+                                <div className="flex-grow-1 me-2">
+                                    <a href="../../demo39/dist/pages/user-profile/overview.html" className="text-gray-800 text-hover-primary fs-6 fw-bold">QA Analysis</a>
+                                    <span className="text-muted fw-semibold d-block fs-7">18 Courses</span>
+                                </div>
+
+
+                                <a href="#" className="btn btn-sm btn-icon btn-bg-light btn-active-color-primary w-30px h-30px">
+                                    <i className="ki-outline ki-arrow-right fs-2"></i>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+
+                        <div className="separator separator-dashed my-4"></div>
+
+
+                        <div className="d-flex flex-stack">
+
+                            <div className="symbol symbol-40px me-4">
+                                <div className="symbol-label fs-2 fw-semibold bg-info text-inverse-info">W</div>
+                            </div>
+
+
+                            <div className="d-flex align-items-center flex-row-fluid flex-wrap">
+
+                                <div className="flex-grow-1 me-2">
+                                    <a href="../../demo39/dist/pages/user-profile/overview.html" className="text-gray-800 text-hover-primary fs-6 fw-bold">Web Development</a>
+                                    <span className="text-muted fw-semibold d-block fs-7">120+ Courses</span>
+                                </div>
+
+
+                                <a href="#" className="btn btn-sm btn-icon btn-bg-light btn-active-color-primary w-30px h-30px">
+                                    <i className="ki-outline ki-arrow-right fs-2"></i>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+
+                        <div className="separator separator-dashed my-4"></div>
+
+
+                        <div className="d-flex flex-stack">
+
+                            <div className="symbol symbol-40px me-4">
+                                <div className="symbol-label fs-2 fw-semibold bg-primary text-inverse-primary">M</div>
+                            </div>
+
+
+                            <div className="d-flex align-items-center flex-row-fluid flex-wrap">
+
+                                <div className="flex-grow-1 me-2">
+                                    <a href="../../demo39/dist/pages/user-profile/overview.html" className="text-gray-800 text-hover-primary fs-6 fw-bold">Marketing</a>
+                                    <span className="text-muted fw-semibold d-block fs-7">50+ Courses.</span>
+                                </div>
+
+
+                                <a href="#" className="btn btn-sm btn-icon btn-bg-light btn-active-color-primary w-30px h-30px">
+                                    <i className="ki-outline ki-arrow-right fs-2"></i>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+
+                        <div className="separator separator-dashed my-4"></div>
+
+
+                        <div className="d-flex flex-stack">
+
+                            <div className="symbol symbol-40px me-4">
+                                <div className="symbol-label fs-2 fw-semibold bg-warning text-inverse-warning">P</div>
+                            </div>
+
+
+                            <div className="d-flex align-items-center flex-row-fluid flex-wrap">
+
+                                <div className="flex-grow-1 me-2">
+                                    <a href="../../demo39/dist/pages/user-profile/overview.html" className="text-gray-800 text-hover-primary fs-6 fw-bold">Philosophy</a>
+                                    <span className="text-muted fw-semibold d-block fs-7">24+ Courses</span>
+                                </div>
+
+
+                                <a href="#" className="btn btn-sm btn-icon btn-bg-light btn-active-color-primary w-30px h-30px">
+                                    <i className="ki-outline ki-arrow-right fs-2"></i>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+
+                        <div className="separator separator-dashed my-4"></div>
+
+
+                        <div className="d-flex flex-stack">
+
+                            <div className="symbol symbol-40px me-4">
+                                <div className="symbol-label fs-2 fw-semibold bg-dark text-inverse-dark">M</div>
+                            </div>
+
+
+                            <div className="d-flex align-items-center flex-row-fluid flex-wrap">
+
+                                <div className="flex-grow-1 me-2">
+                                    <a href="../../demo39/dist/pages/user-profile/overview.html" className="text-gray-800 text-hover-primary fs-6 fw-bold">Mathematics</a>
+                                    <span className="text-muted fw-semibold d-block fs-7">24+ Courses</span>
+                                </div>
+
+
+                                <a href="#" className="btn btn-sm btn-icon btn-bg-light btn-active-color-primary w-30px h-30px">
+                                    <i className="ki-outline ki-arrow-right fs-2"></i>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div className="col-xl-8 mb-5 mb-xl-10">
+
+                <div className="card card-flush h-xl-100">
+
+                    <div className="card-header pt-5">
+
+                        <h3 className="card-title align-items-start flex-column">
+                            <span className="card-label fw-bold text-dark">Team Schedule</span>
+                            <span className="text-gray-400 pt-2 fw-semibold fs-6">49 Acual Tasks</span>
+                        </h3>
+
+
+                        <div className="card-toolbar">
+
+                            <ul className="nav">
+                                <li className="nav-item">
+                                    <a className="nav-link btn btn-sm btn-color-muted btn-active btn-active-light fw-bold px-4 me-1 active" data-kt-timeline-widget-1="tab" data-bs-toggle="tab" href="#kt_timeline_widget_1_tab_day">Day</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link btn btn-sm btn-color-muted btn-active btn-active-light fw-bold px-4 me-1" data-kt-timeline-widget-1="tab" data-bs-toggle="tab" href="#kt_timeline_widget_1_tab_week">Week</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link btn btn-sm btn-color-muted btn-active btn-active-light fw-bold px-4 me-1" data-kt-timeline-widget-1="tab" data-bs-toggle="tab" href="#kt_timeline_widget_1_tab_month">Month</a>
+                                </li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+
+                    <div className="card-body pb-0">
+
+                        <div className="tab-content">
+
+                            <div className="tab-pane active" id="kt_timeline_widget_1_tab_day" role="tabpanel" aria-labelledby="day-tab" data-kt-timeline-widget-1-blockui="true">
+                                <div className="table-responsive pb-10">
+
+                                    <div id="kt_timeline_widget_1_1" className="vis-timeline-custom h-350px min-w-700px" data-kt-timeline-widget-1-image-root="assets/media/"></div>
+
+                                </div>
+                            </div>
+
+
+                            <div className="tab-pane" id="kt_timeline_widget_1_tab_week" role="tabpanel" aria-labelledby="week-tab" data-kt-timeline-widget-1-blockui="true">
+                                <div className="table-responsive pb-10">
+
+                                    <div id="kt_timeline_widget_1_2" className="vis-timeline-custom h-350px min-w-700px" data-kt-timeline-widget-1-image-root="assets/media/"></div>
+
+                                </div>
+                            </div>
+
+
+                            <div className="tab-pane" id="kt_timeline_widget_1_tab_month" role="tabpanel" aria-labelledby="month-tab" data-kt-timeline-widget-1-blockui="true">
+                                <div className="table-responsive pb-10">
+
+                                    <div id="kt_timeline_widget_1_3" className="vis-timeline-custom h-350px min-w-700px" data-kt-timeline-widget-1-image-root="assets/media/"></div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div className="row g-5 g-xl-10">
+
+            <div className="col-xl-4">
+
+                <div className="card card-flush h-xl-100">
+
+                    <div className="card-header border-0 pt-5">
+                        <h3 className="card-title align-items-start flex-column">
+                            <span className="card-label fw-bold text-dark">Active Lessons</span>
+                            <span className="text-muted mt-1 fw-semibold fs-7">Avg. 72% completed lessons</span>
+                        </h3>
+
+                        <div className="card-toolbar">
+                            <a href="#" className="btn btn-sm btn-light">All Lessons</a>
+                        </div>
+
+                    </div>
+
+
+                    <div className="card-body pt-5">
+
+                        <div className="d-flex flex-stack">
+
+                            <div className="d-flex align-items-center me-3">
+
+                                <img src={error} className="me-4 w-30px" alt="" />
+
+
+                                <div className="flex-grow-1">
+
+                                    <a href="#" className="text-gray-800 text-hover-primary fs-5 fw-bold lh-0">Laravel</a>
+
+
+                                    <span className="text-gray-400 fw-semibold d-block fs-6">PHP Framework</span>
+
+                                </div>
+
+                            </div>
+
+
+                            <div className="d-flex align-items-center w-100 mw-125px">
+
+                                <div className="progress h-6px w-100 me-2 bg-light-success">
+                                    {/* <div className="progress-bar bg-success" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div> */}
+                                </div>
+
+
+                                <span className="text-gray-400 fw-semibold">65%</span>
+
+                            </div>
+
+                        </div>
+
+
+                        <div className="separator separator-dashed my-3"></div>
+
+
+                        <div className="d-flex flex-stack">
+
+                            <div className="d-flex align-items-center me-3">
+
+                                <img src={vuejs} className="me-4 w-30px" alt="" />
+
+
+                                <div className="flex-grow-1">
+
+                                    <a href="#" className="text-gray-800 text-hover-primary fs-5 fw-bold lh-0">Vue 3</a>
+
+
+                                    <span className="text-gray-400 fw-semibold d-block fs-6">JS Framework</span>
+
+                                </div>
+
+                            </div>
+
+
+                            <div className="d-flex align-items-center w-100 mw-125px">
+
+                                <div className="progress h-6px w-100 me-2 bg-light-warning">
+                                    {/* <div className="progress-bar bg-warning" role="progressbar" aria-valuenow="87" aria-valuemin="0" aria-valuemax="100"></div> */}
+                                </div>
+
+
+                                <span className="text-gray-400 fw-semibold">87%</span>
+
+                            </div>
+
+                        </div>
+
+
+                        <div className="separator separator-dashed my-3"></div>
+
+
+                        <div className="d-flex flex-stack">
+
+                            <div className="d-flex align-items-center me-3">
+
+                                <img src={bootstrap} className="me-4 w-30px" alt="" />
+
+
+                                <div className="flex-grow-1">
+
+                                    <a href="#" className="text-gray-800 text-hover-primary fs-5 fw-bold lh-0">Bootstrap 5</a>
+
+
+                                    <span className="text-gray-400 fw-semibold d-block fs-6">CSS Framework</span>
+
+                                </div>
+
+                            </div>
+
+
+                            <div className="d-flex align-items-center w-100 mw-125px">
+
+                                <div className="progress h-6px w-100 me-2 bg-light-primary">
+                                    {/* <div className="progress-bar bg-primary" role="progressbar" aria-valuenow="44" aria-valuemin="0" aria-valuemax="100"></div> */}
+                                </div>
+
+
+                                <span className="text-gray-400 fw-semibold">44%</span>
+
+                            </div>
+
+                        </div>
+
+
+                        <div className="separator separator-dashed my-3"></div>
+
+
+                        <div className="d-flex flex-stack">
+
+                            <div className="d-flex align-items-center me-3">
+
+                                <img src={angular} className="me-4 w-30px" alt="" />
+
+
+                                <div className="flex-grow-1">
+
+                                    <a href="#" className="text-gray-800 text-hover-primary fs-5 fw-bold lh-0">Angular 13</a>
+
+
+                                    <span className="text-gray-400 fw-semibold d-block fs-6">JS Framework</span>
+
+                                </div>
+
+                            </div>
+
+
+                            <div className="d-flex align-items-center w-100 mw-125px">
+
+                                <div className="progress h-6px w-100 me-2 bg-light-info">
+                                    {/* <div className="progress-bar bg-info" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div> */}
+                                </div>
+
+
+                                <span className="text-gray-400 fw-semibold">70%</span>
+
+                            </div>
+
+                        </div>
+
+
+                        <div className="separator separator-dashed my-3"></div>
+
+
+                        <div className="d-flex flex-stack">
+
+                            <div className="d-flex align-items-center me-3">
+
+                                <img src={spring} className="me-4 w-30px" alt="" />
+
+
+                                <div className="flex-grow-1">
+
+                                    <a href="#" className="text-gray-800 text-hover-primary fs-5 fw-bold lh-0">Spring</a>
+
+
+                                    <span className="text-gray-400 fw-semibold d-block fs-6">Java Framework</span>
+
+                                </div>
+
+                            </div>
+
+
+                            <div className="d-flex align-items-center w-100 mw-125px">
+
+                                <div className="progress h-6px w-100 me-2 bg-light-danger">
+                                    {/* <div className="progress-bar bg-danger" role="progressbar" style="width: 56%" aria-valuenow="56" aria-valuemin="0" aria-valuemax="100"></div> */}
+                                </div>
+
+
+                                <span className="text-gray-400 fw-semibold">56%</span>
+
+                            </div>
+
+                        </div>
+
+
+                        <div className="separator separator-dashed my-3"></div>
+
+
+                        <div className="d-flex flex-stack">
+
+                            <div className="d-flex align-items-center me-3">
+
+                                <img src={typescript} className="me-4 w-30px" alt="" />
+
+
+                                <div className="flex-grow-1">
+
+                                    <a href="#" className="text-gray-800 text-hover-primary fs-5 fw-bold lh-0">TypeScript</a>
+
+
+                                    <span className="text-gray-400 fw-semibold d-block fs-6">Better Tooling</span>
+
+                                </div>
+
+                            </div>
+
+
+                            <div className="d-flex align-items-center w-100 mw-125px">
+
+                                <div className="progress h-6px w-100 me-2 bg-light-success">
+                                    {/* <div className="progress-bar bg-success" role="progressbar" style="width: 82%" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100"></div> */}
+                                </div>
+
+
+                                <span className="text-gray-400 fw-semibold">82%</span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div className="col-xl-8">
+
+                <div className="card card-flush h-xl-100">
+
+                    <div className="card-header pt-7">
+
+                        <h3 className="card-title align-items-start flex-column">
+                            <span className="card-label fw-bold text-gray-800">Learn Activity</span>
+                            <span className="text-gray-400 mt-1 fw-semibold fs-6">Hours per course</span>
+                        </h3>
+
+
+                        <div className="card-toolbar">
+
+                            <div data-kt-daterangepicker="true" data-kt-daterangepicker-opens="left" className="btn btn-sm btn-light d-flex align-items-center px-4">
+
+                                <div className="text-gray-600 fw-bold">Loading date range...</div>
+
+                                <i className="ki-outline ki-calendar-8 fs-1 ms-2 me-0"></i>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div className="card-body d-flex align-items-end px-0 pt-3 pb-5">
+
+                        <div id="kt_charts_widget_18_chart" className="h-325px w-100 min-h-auto ps-4 pe-6"></div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+</div>
+                        </div>
 
                     </div>
 
@@ -4735,1260 +5990,7 @@ const OnlineCoures = () => {
 
                         <div className="app-main flex-column flex-row-fluid" id="kt_app_main">
 
-                            <div className="d-flex flex-column flex-column-fluid bg-white mx-auto" style={{ width: '90%' }}>
-
-                                <div id="kt_app_toolbar" className="app-toolbar pt-6 pb-2">
-
-                                    <div id="kt_app_toolbar_container" className="app-container container-fluid d-flex align-items-stretch">
-
-                                        <div className="app-toolbar-wrapper d-flex flex-stack flex-wrap gap-4 w-100">
-
-                                            <div className="page-title d-flex flex-column justify-content-center gap-1 me-3">
-
-                                                <h1 className="page-heading d-flex flex-column justify-content-center text-dark fw-bold fs-3 m-0">Online Courses</h1>
-
-
-                                                <ul className="breadcrumb breadcrumb-separatorless fw-semibold fs-7 my-0">
-
-                                                    <li className="breadcrumb-item text-muted">
-                                                        <a href="../../demo39/dist/index.html" className="text-muted text-hover-primary">Home</a>
-                                                    </li>
-
-
-                                                    <li className="breadcrumb-item">
-                                                        <span className="bullet bg-gray-400 w-5px h-2px"></span>
-                                                    </li>
-
-
-                                                    <li className="breadcrumb-item text-muted">Dashboards</li>
-
-                                                </ul>
-
-                                            </div>
-
-
-                                            <div className="d-flex align-items-center gap-2 gap-lg-3">
-                                                <a href="#" className="btn btn-flex btn-outline btn-color-gray-700 btn-active-color-primary bg-body h-40px fs-7 fw-bold" data-bs-toggle="modal" data-bs-target="#kt_modal_view_users">Add Member</a>
-                                                <a href="#" className="btn btn-flex btn-primary h-40px fs-7 fw-bold" data-bs-toggle="modal" data-bs-target="#kt_modal_create_campaign">New Campaign</a>
-                                            </div>
-
-                                        </div>
-
-                                    </div>
-
-                                </div>
-
-
-                                <div id="kt_app_content" className="app-content flex-column-fluid">
-
-                                    <div id="kt_app_content_container" className="app-container container-fluid">
-
-                                        <div className="row g-5 g-xl-10">
-
-                                            <div className="col-xl-4 mb-xl-10">
-
-                                                <div className="card card-flush h-xl-100">
-
-                                                    <div className="card-header rounded bgi-no-repeat bgi-size-cover bgi-position-y-top bgi-position-x-center align-items-start h-250px"
-                                                        //  style="background-image:url('assets/media/svg/shapes/top-green.png"
-                                                        style={{ backgroundImage: `url(${topGreen})` }}
-                                                        data-bs-theme="light">
-
-                                                        <h3 className="card-title align-items-start flex-column text-white pt-15">
-                                                            <span className="fw-bold fs-2x mb-3">My Tasks</span>
-                                                            <div className="fs-4 text-white">
-                                                                <span className="opacity-75">You have</span>
-                                                                <span className="position-relative d-inline-block">
-                                                                    <a href="../../demo39/dist/pages/user-profile/projects.html" className="link-white opacity-75-hover fw-bold d-block mb-1">4 tasks</a>
-
-                                                                    <span className="position-absolute opacity-50 bottom-0 start-0 border-2 border-body border-bottom w-100"></span>
-
-                                                                </span>
-                                                                <span className="opacity-75">to comlete</span>
-                                                            </div>
-                                                        </h3>
-
-
-                                                        <div className="card-toolbar pt-5">
-
-                                                            <button className="btn btn-sm btn-icon btn-active-color-primary btn-color-white bg-white bg-opacity-25 bg-hover-opacity-100 bg-hover-white bg-active-opacity-25 w-20px h-20px" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end" data-kt-menu-overflow="true">
-                                                                <i className="ki-outline ki-dots-square fs-4"></i>
-                                                            </button>
-
-                                                            <div className="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-semibold w-200px" data-kt-menu="true">
-
-                                                                <div className="menu-item px-3">
-                                                                    <div className="menu-content fs-6 text-dark fw-bold px-3 py-4">Quick Actions</div>
-                                                                </div>
-
-
-                                                                <div className="separator mb-3 opacity-75"></div>
-
-
-                                                                <div className="menu-item px-3">
-                                                                    <a href="#" className="menu-link px-3">New Ticket</a>
-                                                                </div>
-
-
-                                                                <div className="menu-item px-3">
-                                                                    <a href="#" className="menu-link px-3">New Customer</a>
-                                                                </div>
-
-
-                                                                <div className="menu-item px-3" data-kt-menu-trigger="hover" data-kt-menu-placement="right-start">
-
-                                                                    <a href="#" className="menu-link px-3">
-                                                                        <span className="menu-title">New Group</span>
-                                                                        <span className="menu-arrow"></span>
-                                                                    </a>
-
-
-                                                                    <div className="menu-sub menu-sub-dropdown w-175px py-4">
-
-                                                                        <div className="menu-item px-3">
-                                                                            <a href="#" className="menu-link px-3">Admin Group</a>
-                                                                        </div>
-
-
-                                                                        <div className="menu-item px-3">
-                                                                            <a href="#" className="menu-link px-3">Staff Group</a>
-                                                                        </div>
-
-
-                                                                        <div className="menu-item px-3">
-                                                                            <a href="#" className="menu-link px-3">Member Group</a>
-                                                                        </div>
-
-                                                                    </div>
-
-                                                                </div>
-
-
-                                                                <div className="menu-item px-3">
-                                                                    <a href="#" className="menu-link px-3">New Contact</a>
-                                                                </div>
-
-
-                                                                <div className="separator mt-3 opacity-75"></div>
-
-
-                                                                <div className="menu-item px-3">
-                                                                    <div className="menu-content px-3 py-3">
-                                                                        <a className="btn btn-primary btn-sm px-4" href="#">Generate Reports</a>
-                                                                    </div>
-                                                                </div>
-
-                                                            </div>
-
-
-                                                        </div>
-
-                                                    </div>
-
-
-                                                    <div className="card-body mt-n20">
-
-                                                        <div className="mt-n20 position-relative">
-
-                                                            <div className="row g-3 g-lg-6">
-
-                                                                <div className="col-6">
-
-                                                                    <div className="bg-gray-100 bg-opacity-70 rounded-2 px-6 py-5">
-
-                                                                        <div className="symbol symbol-30px me-5 mb-8">
-                                                                            <span className="symbol-label">
-                                                                                <i className="ki-outline ki-flask fs-1 text-primary"></i>
-                                                                            </span>
-                                                                        </div>
-
-
-                                                                        <div className="m-0">
-
-                                                                            <span className="text-gray-700 fw-bolder d-block fs-2qx lh-1 ls-n1 mb-1">37</span>
-
-
-                                                                            <span className="text-gray-500 fw-semibold fs-6">Courses</span>
-
-                                                                        </div>
-
-                                                                    </div>
-
-                                                                </div>
-
-
-                                                                <div className="col-6">
-
-                                                                    <div className="bg-gray-100 bg-opacity-70 rounded-2 px-6 py-5">
-
-                                                                        <div className="symbol symbol-30px me-5 mb-8">
-                                                                            <span className="symbol-label">
-                                                                                <i className="ki-outline ki-bank fs-1 text-primary"></i>
-                                                                            </span>
-                                                                        </div>
-
-
-                                                                        <div className="m-0">
-
-                                                                            <span className="text-gray-700 fw-bolder d-block fs-2qx lh-1 ls-n1 mb-1">6</span>
-
-
-                                                                            <span className="text-gray-500 fw-semibold fs-6">Certificates</span>
-
-                                                                        </div>
-
-                                                                    </div>
-
-                                                                </div>
-
-
-                                                                <div className="col-6">
-
-                                                                    <div className="bg-gray-100 bg-opacity-70 rounded-2 px-6 py-5">
-
-                                                                        <div className="symbol symbol-30px me-5 mb-8">
-                                                                            <span className="symbol-label">
-                                                                                <i className="ki-outline ki-award fs-1 text-primary"></i>
-                                                                            </span>
-                                                                        </div>
-
-
-                                                                        <div className="m-0">
-
-                                                                            <span className="text-gray-700 fw-bolder d-block fs-2qx lh-1 ls-n1 mb-1">4,7</span>
-
-
-                                                                            <span className="text-gray-500 fw-semibold fs-6">Avg. Score</span>
-
-                                                                        </div>
-
-                                                                    </div>
-
-                                                                </div>
-
-
-                                                                <div className="col-6">
-
-                                                                    <div className="bg-gray-100 bg-opacity-70 rounded-2 px-6 py-5">
-
-                                                                        <div className="symbol symbol-30px me-5 mb-8">
-                                                                            <span className="symbol-label">
-                                                                                <i className="ki-outline ki-timer fs-1 text-primary"></i>
-                                                                            </span>
-                                                                        </div>
-
-
-                                                                        <div className="m-0">
-
-                                                                            <span className="text-gray-700 fw-bolder d-block fs-2qx lh-1 ls-n1 mb-1">822</span>
-
-
-                                                                            <span className="text-gray-500 fw-semibold fs-6">Hours Learned</span>
-
-                                                                        </div>
-
-                                                                    </div>
-
-                                                                </div>
-
-                                                            </div>
-
-                                                        </div>
-
-                                                    </div>
-
-                                                </div>
-
-                                            </div>
-
-
-                                            <div className="col-xl-8 mb-5 mb-xl-10">
-
-                                                <div className="row g-5 g-xl-10">
-
-                                                    <div className="col-xl-6 mb-xl-10">
-
-                                                        <div id="kt_sliders_widget_1_slider" className="card card-flush carousel carousel-custom carousel-stretch slide h-xl-100" data-bs-ride="carousel" data-bs-interval="5000">
-
-                                                            <div className="card-header pt-5">
-
-                                                                <h4 className="card-title d-flex align-items-start flex-column">
-                                                                    <span className="card-label fw-bold text-gray-800">Today’s Course</span>
-                                                                    <span className="text-gray-400 mt-1 fw-bold fs-7">4 lessons, 3 hours 45 minutes</span>
-                                                                </h4>
-
-
-                                                                <div className="card-toolbar">
-
-                                                                    <ol className="p-0 m-0 carousel-indicators carousel-indicators-bullet carousel-indicators-active-primary">
-                                                                        <li data-bs-target="#kt_sliders_widget_1_slider" data-bs-slide-to="0" className="active ms-1"></li>
-                                                                        <li data-bs-target="#kt_sliders_widget_1_slider" data-bs-slide-to="1" className="ms-1"></li>
-                                                                        <li data-bs-target="#kt_sliders_widget_1_slider" data-bs-slide-to="2" className="ms-1"></li>
-                                                                    </ol>
-
-                                                                </div>
-
-                                                            </div>
-
-
-                                                            <div className="card-body py-6">
-
-                                                                <div className="carousel-inner mt-n5">
-
-                                                                    <div className="carousel-item active show">
-
-                                                                        <div className="d-flex align-items-center mb-5">
-
-                                                                            <div className="w-80px flex-shrink-0 me-2">
-                                                                                <div className="min-h-auto ms-n3" id="kt_slider_widget_1_chart_1"></div>
-                                                                            </div>
-
-
-                                                                            <div className="m-0">
-
-                                                                                <h4 className="fw-bold text-gray-800 mb-3">Ruby on Rails</h4>
-
-
-                                                                                <div className="d-flex d-grid gap-5">
-
-                                                                                    <div className="d-flex flex-column flex-shrink-0 me-4">
-
-                                                                                        <span className="d-flex align-items-center fs-7 fw-bold text-gray-400 mb-2">
-                                                                                            <i className="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>3 Topics</span>
-
-
-                                                                                        <span className="d-flex align-items-center text-gray-400 fw-bold fs-7">
-                                                                                            <i className="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>1 Speakers</span>
-
-                                                                                    </div>
-
-
-                                                                                    <div className="d-flex flex-column flex-shrink-0">
-
-                                                                                        <span className="d-flex align-items-center fs-7 fw-bold text-gray-400 mb-2">
-                                                                                            <i className="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>50 Min</span>
-
-
-                                                                                        <span className="d-flex align-items-center text-gray-400 fw-bold fs-7">
-                                                                                            <i className="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>72 students</span>
-
-                                                                                    </div>
-
-                                                                                </div>
-
-                                                                            </div>
-
-                                                                        </div>
-
-
-                                                                        <div className="m-0">
-                                                                            <a href="#" className="btn btn-sm btn-light me-2 mb-2">Skip This</a>
-                                                                            <a href="#" className="btn btn-sm btn-primary mb-2" data-bs-toggle="modal" data-bs-target="#kt_modal_create_app">Continue</a>
-                                                                        </div>
-
-                                                                    </div>
-
-
-                                                                    <div className="carousel-item">
-
-                                                                        <div className="d-flex align-items-center mb-5">
-
-                                                                            <div className="w-80px flex-shrink-0 me-2">
-                                                                                <div className="min-h-auto ms-n3" id="kt_slider_widget_1_chart_2"></div>
-                                                                            </div>
-
-
-                                                                            <div className="m-0">
-
-                                                                                <h4 className="fw-bold text-gray-800 mb-3">Ruby on Rails</h4>
-
-
-                                                                                <div className="d-flex d-grid gap-5">
-
-                                                                                    <div className="d-flex flex-column flex-shrink-0 me-4">
-
-                                                                                        <span className="d-flex align-items-center fs-7 fw-bold text-gray-400 mb-2">
-                                                                                            <i className="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>3 Topics</span>
-
-
-                                                                                        <span className="d-flex align-items-center text-gray-400 fw-bold fs-7">
-                                                                                            <i className="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>1 Speakers</span>
-
-                                                                                    </div>
-
-
-                                                                                    <div className="d-flex flex-column flex-shrink-0">
-
-                                                                                        <span className="d-flex align-items-center fs-7 fw-bold text-gray-400 mb-2">
-                                                                                            <i className="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>50 Min</span>
-
-
-                                                                                        <span className="d-flex align-items-center text-gray-400 fw-bold fs-7">
-                                                                                            <i className="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>72 students</span>
-
-                                                                                    </div>
-
-                                                                                </div>
-
-                                                                            </div>
-
-                                                                        </div>
-
-
-                                                                        <div className="m-0">
-                                                                            <a href="#" className="btn btn-sm btn-light me-2 mb-2">Skip This</a>
-                                                                            <a href="#" className="btn btn-sm btn-primary mb-2" data-bs-toggle="modal" data-bs-target="#kt_modal_create_app">Continue</a>
-                                                                        </div>
-
-                                                                    </div>
-
-
-                                                                    <div className="carousel-item">
-
-                                                                        <div className="d-flex align-items-center mb-5">
-
-                                                                            <div className="w-80px flex-shrink-0 me-2">
-                                                                                <div className="min-h-auto ms-n3" id="kt_slider_widget_1_chart_3"></div>
-                                                                            </div>
-
-
-                                                                            <div className="m-0">
-
-                                                                                <h4 className="fw-bold text-gray-800 mb-3">Ruby on Rails</h4>
-
-
-                                                                                <div className="d-flex d-grid gap-5">
-
-                                                                                    <div className="d-flex flex-column flex-shrink-0 me-4">
-
-                                                                                        <span className="d-flex align-items-center fs-7 fw-bold text-gray-400 mb-2">
-                                                                                            <i className="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>3 Topics</span>
-
-
-                                                                                        <span className="d-flex align-items-center text-gray-400 fw-bold fs-7">
-                                                                                            <i className="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>1 Speakers</span>
-
-                                                                                    </div>
-
-
-                                                                                    <div className="d-flex flex-column flex-shrink-0">
-
-                                                                                        <span className="d-flex align-items-center fs-7 fw-bold text-gray-400 mb-2">
-                                                                                            <i className="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>50 Min</span>
-
-
-                                                                                        <span className="d-flex align-items-center text-gray-400 fw-bold fs-7">
-                                                                                            <i className="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>72 students</span>
-
-                                                                                    </div>
-
-                                                                                </div>
-
-                                                                            </div>
-
-                                                                        </div>
-
-
-                                                                        <div className="m-0">
-                                                                            <a href="#" className="btn btn-sm btn-light me-2 mb-2">Skip This</a>
-                                                                            <a href="#" className="btn btn-sm btn-primary mb-2" data-bs-toggle="modal" data-bs-target="#kt_modal_create_app">Continue</a>
-                                                                        </div>
-
-                                                                    </div>
-
-                                                                </div>
-
-                                                            </div>
-
-                                                        </div>
-
-                                                    </div>
-
-
-                                                    <div className="col-xl-6 mb-5 mb-xl-10">
-
-                                                        <div id="kt_sliders_widget_2_slider" className="card card-flush carousel carousel-custom carousel-stretch slide h-xl-100" data-bs-ride="carousel" data-bs-interval="5500">
-
-                                                            <div className="card-header pt-5">
-
-                                                                <h4 className="card-title d-flex align-items-start flex-column">
-                                                                    <span className="card-label fw-bold text-gray-800">Today’s Events</span>
-                                                                    <span className="text-gray-400 mt-1 fw-bold fs-7">24 events on all activities</span>
-                                                                </h4>
-
-
-                                                                <div className="card-toolbar">
-
-                                                                    <ol className="p-0 m-0 carousel-indicators carousel-indicators-bullet carousel-indicators-active-success">
-                                                                        <li data-bs-target="#kt_sliders_widget_2_slider" data-bs-slide-to="0" className="active ms-1"></li>
-                                                                        <li data-bs-target="#kt_sliders_widget_2_slider" data-bs-slide-to="1" className="ms-1"></li>
-                                                                        <li data-bs-target="#kt_sliders_widget_2_slider" data-bs-slide-to="2" className="ms-1"></li>
-                                                                    </ol>
-
-                                                                </div>
-
-                                                            </div>
-
-
-                                                            <div className="card-body py-6">
-
-                                                                <div className="carousel-inner">
-
-                                                                    <div className="carousel-item active show">
-
-                                                                        <div className="d-flex align-items-center mb-9">
-
-                                                                            <div className="symbol symbol-70px symbol-circle me-5">
-                                                                                <span className="symbol-label bg-light-success">
-                                                                                    <i className="ki-outline ki-abstract-24 fs-3x text-success"></i>
-                                                                                </span>
-                                                                            </div>
-
-
-                                                                            <div className="m-0">
-
-                                                                                <h4 className="fw-bold text-gray-800 mb-3">Ruby on Rails</h4>
-
-
-                                                                                <div className="d-flex d-grid gap-5">
-
-                                                                                    <div className="d-flex flex-column flex-shrink-0 me-4">
-
-                                                                                        <span className="d-flex align-items-center fs-7 fw-bold text-gray-400 mb-2">
-                                                                                            <i className="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>5 Topics</span>
-
-
-                                                                                        <span className="d-flex align-items-center text-gray-400 fw-bold fs-7">
-                                                                                            <i className="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>1 Speakers</span>
-
-                                                                                    </div>
-
-
-                                                                                    <div className="d-flex flex-column flex-shrink-0">
-
-                                                                                        <span className="d-flex align-items-center fs-7 fw-bold text-gray-400 mb-2">
-                                                                                            <i className="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>60 Min</span>
-
-
-                                                                                        <span className="d-flex align-items-center text-gray-400 fw-bold fs-7">
-                                                                                            <i className="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>137 students</span>
-
-                                                                                    </div>
-
-                                                                                </div>
-
-                                                                            </div>
-
-                                                                        </div>
-
-
-                                                                        <div className="m-0">
-                                                                            <a href="#" className="btn btn-sm btn-light me-2 mb-2">Details</a>
-                                                                            <a href="#" className="btn btn-sm btn-success mb-2" data-bs-toggle="modal" data-bs-target="#kt_modal_create_campaign">Join Event</a>
-                                                                        </div>
-
-                                                                    </div>
-
-
-                                                                    <div className="carousel-item">
-
-                                                                        <div className="d-flex align-items-center mb-9">
-
-                                                                            <div className="symbol symbol-70px symbol-circle me-5">
-                                                                                <span className="symbol-label bg-light-danger">
-                                                                                    <i className="ki-outline ki-abstract-25 fs-3x text-danger"></i>
-                                                                                </span>
-                                                                            </div>
-
-
-                                                                            <div className="m-0">
-
-                                                                                <h4 className="fw-bold text-gray-800 mb-3">Ruby on Rails</h4>
-
-
-                                                                                <div className="d-flex d-grid gap-5">
-
-                                                                                    <div className="d-flex flex-column flex-shrink-0 me-4">
-
-                                                                                        <span className="d-flex align-items-center fs-7 fw-bold text-gray-400 mb-2">
-                                                                                            <i className="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>12 Topics</span>
-
-
-                                                                                        <span className="d-flex align-items-center text-gray-400 fw-bold fs-7">
-                                                                                            <i className="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>1 Speakers</span>
-
-                                                                                    </div>
-
-
-                                                                                    <div className="d-flex flex-column flex-shrink-0">
-
-                                                                                        <span className="d-flex align-items-center fs-7 fw-bold text-gray-400 mb-2">
-                                                                                            <i className="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>50 Min</span>
-
-
-                                                                                        <span className="d-flex align-items-center text-gray-400 fw-bold fs-7">
-                                                                                            <i className="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>72 students</span>
-
-                                                                                    </div>
-
-                                                                                </div>
-
-                                                                            </div>
-
-                                                                        </div>
-
-
-                                                                        <div className="m-0">
-                                                                            <a href="#" className="btn btn-sm btn-light me-2 mb-2">Details</a>
-                                                                            <a href="#" className="btn btn-sm btn-success mb-2" data-bs-toggle="modal" data-bs-target="#kt_modal_create_campaign">Join Event</a>
-                                                                        </div>
-
-                                                                    </div>
-
-
-                                                                    <div className="carousel-item">
-
-                                                                        <div className="d-flex align-items-center mb-9">
-
-                                                                            <div className="symbol symbol-70px symbol-circle me-5">
-                                                                                <span className="symbol-label bg-light-primary">
-                                                                                    <i className="ki-outline ki-abstract-36 fs-3x text-primary"></i>
-                                                                                </span>
-                                                                            </div>
-
-
-                                                                            <div className="m-0">
-
-                                                                                <h4 className="fw-bold text-gray-800 mb-3">Ruby on Rails</h4>
-
-
-                                                                                <div className="d-flex d-grid gap-5">
-
-                                                                                    <div className="d-flex flex-column flex-shrink-0 me-4">
-
-                                                                                        <span className="d-flex align-items-center fs-7 fw-bold text-gray-400 mb-2">
-                                                                                            <i className="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>3 Topics</span>
-
-
-                                                                                        <span className="d-flex align-items-center text-gray-400 fw-bold fs-7">
-                                                                                            <i className="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>1 Speakers</span>
-
-                                                                                    </div>
-
-
-                                                                                    <div className="d-flex flex-column flex-shrink-0">
-
-                                                                                        <span className="d-flex align-items-center fs-7 fw-bold text-gray-400 mb-2">
-                                                                                            <i className="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>50 Min</span>
-
-
-                                                                                        <span className="d-flex align-items-center text-gray-400 fw-bold fs-7">
-                                                                                            <i className="ki-outline ki-right-square fs-6 text-gray-600 me-2"></i>72 students</span>
-
-                                                                                    </div>
-
-                                                                                </div>
-
-                                                                            </div>
-
-                                                                        </div>
-
-
-                                                                        <div className="m-0">
-                                                                            <a href="#" className="btn btn-sm btn-light me-2 mb-2">Details</a>
-                                                                            <a href="#" className="btn btn-sm btn-success mb-2" data-bs-toggle="modal" data-bs-target="#kt_modal_create_campaign">Join Event</a>
-                                                                        </div>
-
-                                                                    </div>
-
-                                                                </div>
-
-                                                            </div>
-
-                                                        </div>
-
-                                                    </div>
-
-                                                </div>
-
-
-                                                <div className="card border-transparent" style={{ backgroundColor: '#1C325E' }}>
-
-                                                    <div className="card-body d-flex ps-xl-15">
-
-                                                        <div className="m-0">
-
-                                                            <div className="position-relative fs-2x z-index-2 fw-bold text-white mb-7">
-                                                                <span className="me-2">You have got
-                                                                    <span className="position-relative d-inline-block text-danger">
-                                                                        <a href="../../demo39/dist/pages/user-profile/overview.html" className="text-danger opacity-75-hover">2300 bonus</a>
-
-                                                                        <span className="position-absolute opacity-50 bottom-0 start-0 border-4 border-danger border-bottom w-100"></span>
-
-                                                                    </span></span>points.
-                                                                <br />Feel free to use them in your lessons</div>
-
-
-                                                            <div className="mb-3">
-                                                                <a href='#' className="btn btn-danger fw-semibold me-2" data-bs-toggle="modal" data-bs-target="#kt_modal_upgrade_plan">Get Reward</a>
-                                                                <a href="../../demo39/dist/apps/support-center/overview.html" className="btn btn-color-white bg-white bg-opacity-15 bg-hover-opacity-25 fw-semibold">How to</a>
-                                                            </div>
-
-                                                        </div>
-
-
-                                                        <img src={sigma} className="position-absolute me-3 bottom-0 end-0 h-200px" alt="" />
-
-                                                    </div>
-
-                                                </div>
-
-                                            </div>
-
-                                        </div>
-
-
-                                        <div className="row g-5 g-xl-10">
-
-                                            <div className="col-xl-4 mb-xl-10">
-
-                                                <div className="card h-xl-100">
-
-                                                    <div className="card-header border-0 pt-5">
-                                                        <h3 className="card-title align-items-start flex-column">
-                                                            <span className="card-label fw-bold text-dark">Recommended for you</span>
-                                                            <span className="text-muted mt-1 fw-semibold fs-7">8k social visitors</span>
-                                                        </h3>
-
-                                                        <div className="card-toolbar">
-                                                            <a href="#" className="btn btn-sm btn-light">All Courses</a>
-                                                        </div>
-
-                                                    </div>
-
-
-                                                    <div className="card-body pt-6">
-
-                                                        <div className="d-flex flex-stack">
-
-                                                            <div className="symbol symbol-40px me-4">
-                                                                <div className="symbol-label fs-2 fw-semibold bg-danger text-inverse-danger">M</div>
-                                                            </div>
-
-
-                                                            <div className="d-flex align-items-center flex-row-fluid flex-wrap">
-
-                                                                <div className="flex-grow-1 me-2">
-                                                                    <a href="../../demo39/dist/pages/user-profile/overview.html" className="text-gray-800 text-hover-primary fs-6 fw-bold">UI/UX Design</a>
-                                                                    <span className="text-muted fw-semibold d-block fs-7">40+ Courses</span>
-                                                                </div>
-
-
-                                                                <a href="#" className="btn btn-sm btn-icon btn-bg-light btn-active-color-primary w-30px h-30px">
-                                                                    <i className="ki-outline ki-arrow-right fs-2"></i>
-                                                                </a>
-
-                                                            </div>
-
-                                                        </div>
-
-
-                                                        <div className="separator separator-dashed my-4"></div>
-
-
-                                                        <div className="d-flex flex-stack">
-
-                                                            <div className="symbol symbol-40px me-4">
-                                                                <div className="symbol-label fs-2 fw-semibold bg-success text-inverse-success">Q</div>
-                                                            </div>
-
-
-                                                            <div className="d-flex align-items-center flex-row-fluid flex-wrap">
-
-                                                                <div className="flex-grow-1 me-2">
-                                                                    <a href="../../demo39/dist/pages/user-profile/overview.html" className="text-gray-800 text-hover-primary fs-6 fw-bold">QA Analysis</a>
-                                                                    <span className="text-muted fw-semibold d-block fs-7">18 Courses</span>
-                                                                </div>
-
-
-                                                                <a href="#" className="btn btn-sm btn-icon btn-bg-light btn-active-color-primary w-30px h-30px">
-                                                                    <i className="ki-outline ki-arrow-right fs-2"></i>
-                                                                </a>
-
-                                                            </div>
-
-                                                        </div>
-
-
-                                                        <div className="separator separator-dashed my-4"></div>
-
-
-                                                        <div className="d-flex flex-stack">
-
-                                                            <div className="symbol symbol-40px me-4">
-                                                                <div className="symbol-label fs-2 fw-semibold bg-info text-inverse-info">W</div>
-                                                            </div>
-
-
-                                                            <div className="d-flex align-items-center flex-row-fluid flex-wrap">
-
-                                                                <div className="flex-grow-1 me-2">
-                                                                    <a href="../../demo39/dist/pages/user-profile/overview.html" className="text-gray-800 text-hover-primary fs-6 fw-bold">Web Development</a>
-                                                                    <span className="text-muted fw-semibold d-block fs-7">120+ Courses</span>
-                                                                </div>
-
-
-                                                                <a href="#" className="btn btn-sm btn-icon btn-bg-light btn-active-color-primary w-30px h-30px">
-                                                                    <i className="ki-outline ki-arrow-right fs-2"></i>
-                                                                </a>
-
-                                                            </div>
-
-                                                        </div>
-
-
-                                                        <div className="separator separator-dashed my-4"></div>
-
-
-                                                        <div className="d-flex flex-stack">
-
-                                                            <div className="symbol symbol-40px me-4">
-                                                                <div className="symbol-label fs-2 fw-semibold bg-primary text-inverse-primary">M</div>
-                                                            </div>
-
-
-                                                            <div className="d-flex align-items-center flex-row-fluid flex-wrap">
-
-                                                                <div className="flex-grow-1 me-2">
-                                                                    <a href="../../demo39/dist/pages/user-profile/overview.html" className="text-gray-800 text-hover-primary fs-6 fw-bold">Marketing</a>
-                                                                    <span className="text-muted fw-semibold d-block fs-7">50+ Courses.</span>
-                                                                </div>
-
-
-                                                                <a href="#" className="btn btn-sm btn-icon btn-bg-light btn-active-color-primary w-30px h-30px">
-                                                                    <i className="ki-outline ki-arrow-right fs-2"></i>
-                                                                </a>
-
-                                                            </div>
-
-                                                        </div>
-
-
-                                                        <div className="separator separator-dashed my-4"></div>
-
-
-                                                        <div className="d-flex flex-stack">
-
-                                                            <div className="symbol symbol-40px me-4">
-                                                                <div className="symbol-label fs-2 fw-semibold bg-warning text-inverse-warning">P</div>
-                                                            </div>
-
-
-                                                            <div className="d-flex align-items-center flex-row-fluid flex-wrap">
-
-                                                                <div className="flex-grow-1 me-2">
-                                                                    <a href="../../demo39/dist/pages/user-profile/overview.html" className="text-gray-800 text-hover-primary fs-6 fw-bold">Philosophy</a>
-                                                                    <span className="text-muted fw-semibold d-block fs-7">24+ Courses</span>
-                                                                </div>
-
-
-                                                                <a href="#" className="btn btn-sm btn-icon btn-bg-light btn-active-color-primary w-30px h-30px">
-                                                                    <i className="ki-outline ki-arrow-right fs-2"></i>
-                                                                </a>
-
-                                                            </div>
-
-                                                        </div>
-
-
-                                                        <div className="separator separator-dashed my-4"></div>
-
-
-                                                        <div className="d-flex flex-stack">
-
-                                                            <div className="symbol symbol-40px me-4">
-                                                                <div className="symbol-label fs-2 fw-semibold bg-dark text-inverse-dark">M</div>
-                                                            </div>
-
-
-                                                            <div className="d-flex align-items-center flex-row-fluid flex-wrap">
-
-                                                                <div className="flex-grow-1 me-2">
-                                                                    <a href="../../demo39/dist/pages/user-profile/overview.html" className="text-gray-800 text-hover-primary fs-6 fw-bold">Mathematics</a>
-                                                                    <span className="text-muted fw-semibold d-block fs-7">24+ Courses</span>
-                                                                </div>
-
-
-                                                                <a href="#" className="btn btn-sm btn-icon btn-bg-light btn-active-color-primary w-30px h-30px">
-                                                                    <i className="ki-outline ki-arrow-right fs-2"></i>
-                                                                </a>
-
-                                                            </div>
-
-                                                        </div>
-
-                                                    </div>
-
-                                                </div>
-
-                                            </div>
-
-
-                                            <div className="col-xl-8 mb-5 mb-xl-10">
-
-                                                <div className="card card-flush h-xl-100">
-
-                                                    <div className="card-header pt-5">
-
-                                                        <h3 className="card-title align-items-start flex-column">
-                                                            <span className="card-label fw-bold text-dark">Team Schedule</span>
-                                                            <span className="text-gray-400 pt-2 fw-semibold fs-6">49 Acual Tasks</span>
-                                                        </h3>
-
-
-                                                        <div className="card-toolbar">
-
-                                                            <ul className="nav">
-                                                                <li className="nav-item">
-                                                                    <a className="nav-link btn btn-sm btn-color-muted btn-active btn-active-light fw-bold px-4 me-1 active" data-kt-timeline-widget-1="tab" data-bs-toggle="tab" href="#kt_timeline_widget_1_tab_day">Day</a>
-                                                                </li>
-                                                                <li className="nav-item">
-                                                                    <a className="nav-link btn btn-sm btn-color-muted btn-active btn-active-light fw-bold px-4 me-1" data-kt-timeline-widget-1="tab" data-bs-toggle="tab" href="#kt_timeline_widget_1_tab_week">Week</a>
-                                                                </li>
-                                                                <li className="nav-item">
-                                                                    <a className="nav-link btn btn-sm btn-color-muted btn-active btn-active-light fw-bold px-4 me-1" data-kt-timeline-widget-1="tab" data-bs-toggle="tab" href="#kt_timeline_widget_1_tab_month">Month</a>
-                                                                </li>
-                                                            </ul>
-
-                                                        </div>
-
-                                                    </div>
-
-
-                                                    <div className="card-body pb-0">
-
-                                                        <div className="tab-content">
-
-                                                            <div className="tab-pane active" id="kt_timeline_widget_1_tab_day" role="tabpanel" aria-labelledby="day-tab" data-kt-timeline-widget-1-blockui="true">
-                                                                <div className="table-responsive pb-10">
-
-                                                                    <div id="kt_timeline_widget_1_1" className="vis-timeline-custom h-350px min-w-700px" data-kt-timeline-widget-1-image-root="assets/media/"></div>
-
-                                                                </div>
-                                                            </div>
-
-
-                                                            <div className="tab-pane" id="kt_timeline_widget_1_tab_week" role="tabpanel" aria-labelledby="week-tab" data-kt-timeline-widget-1-blockui="true">
-                                                                <div className="table-responsive pb-10">
-
-                                                                    <div id="kt_timeline_widget_1_2" className="vis-timeline-custom h-350px min-w-700px" data-kt-timeline-widget-1-image-root="assets/media/"></div>
-
-                                                                </div>
-                                                            </div>
-
-
-                                                            <div className="tab-pane" id="kt_timeline_widget_1_tab_month" role="tabpanel" aria-labelledby="month-tab" data-kt-timeline-widget-1-blockui="true">
-                                                                <div className="table-responsive pb-10">
-
-                                                                    <div id="kt_timeline_widget_1_3" className="vis-timeline-custom h-350px min-w-700px" data-kt-timeline-widget-1-image-root="assets/media/"></div>
-
-                                                                </div>
-                                                            </div>
-
-                                                        </div>
-
-                                                    </div>
-
-                                                </div>
-
-                                            </div>
-
-                                        </div>
-
-
-                                        <div className="row g-5 g-xl-10">
-
-                                            <div className="col-xl-4">
-
-                                                <div className="card card-flush h-xl-100">
-
-                                                    <div className="card-header border-0 pt-5">
-                                                        <h3 className="card-title align-items-start flex-column">
-                                                            <span className="card-label fw-bold text-dark">Active Lessons</span>
-                                                            <span className="text-muted mt-1 fw-semibold fs-7">Avg. 72% completed lessons</span>
-                                                        </h3>
-
-                                                        <div className="card-toolbar">
-                                                            <a href="#" className="btn btn-sm btn-light">All Lessons</a>
-                                                        </div>
-
-                                                    </div>
-
-
-                                                    <div className="card-body pt-5">
-
-                                                        <div className="d-flex flex-stack">
-
-                                                            <div className="d-flex align-items-center me-3">
-
-                                                                <img src={error} className="me-4 w-30px" alt="" />
-
-
-                                                                <div className="flex-grow-1">
-
-                                                                    <a href="#" className="text-gray-800 text-hover-primary fs-5 fw-bold lh-0">Laravel</a>
-
-
-                                                                    <span className="text-gray-400 fw-semibold d-block fs-6">PHP Framework</span>
-
-                                                                </div>
-
-                                                            </div>
-
-
-                                                            <div className="d-flex align-items-center w-100 mw-125px">
-
-                                                                <div className="progress h-6px w-100 me-2 bg-light-success">
-                                                                    {/* <div className="progress-bar bg-success" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div> */}
-                                                                </div>
-
-
-                                                                <span className="text-gray-400 fw-semibold">65%</span>
-
-                                                            </div>
-
-                                                        </div>
-
-
-                                                        <div className="separator separator-dashed my-3"></div>
-
-
-                                                        <div className="d-flex flex-stack">
-
-                                                            <div className="d-flex align-items-center me-3">
-
-                                                                <img src={vuejs} className="me-4 w-30px" alt="" />
-
-
-                                                                <div className="flex-grow-1">
-
-                                                                    <a href="#" className="text-gray-800 text-hover-primary fs-5 fw-bold lh-0">Vue 3</a>
-
-
-                                                                    <span className="text-gray-400 fw-semibold d-block fs-6">JS Framework</span>
-
-                                                                </div>
-
-                                                            </div>
-
-
-                                                            <div className="d-flex align-items-center w-100 mw-125px">
-
-                                                                <div className="progress h-6px w-100 me-2 bg-light-warning">
-                                                                    {/* <div className="progress-bar bg-warning" role="progressbar" aria-valuenow="87" aria-valuemin="0" aria-valuemax="100"></div> */}
-                                                                </div>
-
-
-                                                                <span className="text-gray-400 fw-semibold">87%</span>
-
-                                                            </div>
-
-                                                        </div>
-
-
-                                                        <div className="separator separator-dashed my-3"></div>
-
-
-                                                        <div className="d-flex flex-stack">
-
-                                                            <div className="d-flex align-items-center me-3">
-
-                                                                <img src={bootstrap} className="me-4 w-30px" alt="" />
-
-
-                                                                <div className="flex-grow-1">
-
-                                                                    <a href="#" className="text-gray-800 text-hover-primary fs-5 fw-bold lh-0">Bootstrap 5</a>
-
-
-                                                                    <span className="text-gray-400 fw-semibold d-block fs-6">CSS Framework</span>
-
-                                                                </div>
-
-                                                            </div>
-
-
-                                                            <div className="d-flex align-items-center w-100 mw-125px">
-
-                                                                <div className="progress h-6px w-100 me-2 bg-light-primary">
-                                                                    {/* <div className="progress-bar bg-primary" role="progressbar" aria-valuenow="44" aria-valuemin="0" aria-valuemax="100"></div> */}
-                                                                </div>
-
-
-                                                                <span className="text-gray-400 fw-semibold">44%</span>
-
-                                                            </div>
-
-                                                        </div>
-
-
-                                                        <div className="separator separator-dashed my-3"></div>
-
-
-                                                        <div className="d-flex flex-stack">
-
-                                                            <div className="d-flex align-items-center me-3">
-
-                                                                <img src={angular} className="me-4 w-30px" alt="" />
-
-
-                                                                <div className="flex-grow-1">
-
-                                                                    <a href="#" className="text-gray-800 text-hover-primary fs-5 fw-bold lh-0">Angular 13</a>
-
-
-                                                                    <span className="text-gray-400 fw-semibold d-block fs-6">JS Framework</span>
-
-                                                                </div>
-
-                                                            </div>
-
-
-                                                            <div className="d-flex align-items-center w-100 mw-125px">
-
-                                                                <div className="progress h-6px w-100 me-2 bg-light-info">
-                                                                    {/* <div className="progress-bar bg-info" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div> */}
-                                                                </div>
-
-
-                                                                <span className="text-gray-400 fw-semibold">70%</span>
-
-                                                            </div>
-
-                                                        </div>
-
-
-                                                        <div className="separator separator-dashed my-3"></div>
-
-
-                                                        <div className="d-flex flex-stack">
-
-                                                            <div className="d-flex align-items-center me-3">
-
-                                                                <img src={spring} className="me-4 w-30px" alt="" />
-
-
-                                                                <div className="flex-grow-1">
-
-                                                                    <a href="#" className="text-gray-800 text-hover-primary fs-5 fw-bold lh-0">Spring</a>
-
-
-                                                                    <span className="text-gray-400 fw-semibold d-block fs-6">Java Framework</span>
-
-                                                                </div>
-
-                                                            </div>
-
-
-                                                            <div className="d-flex align-items-center w-100 mw-125px">
-
-                                                                <div className="progress h-6px w-100 me-2 bg-light-danger">
-                                                                    {/* <div className="progress-bar bg-danger" role="progressbar" style="width: 56%" aria-valuenow="56" aria-valuemin="0" aria-valuemax="100"></div> */}
-                                                                </div>
-
-
-                                                                <span className="text-gray-400 fw-semibold">56%</span>
-
-                                                            </div>
-
-                                                        </div>
-
-
-                                                        <div className="separator separator-dashed my-3"></div>
-
-
-                                                        <div className="d-flex flex-stack">
-
-                                                            <div className="d-flex align-items-center me-3">
-
-                                                                <img src={typescript} className="me-4 w-30px" alt="" />
-
-
-                                                                <div className="flex-grow-1">
-
-                                                                    <a href="#" className="text-gray-800 text-hover-primary fs-5 fw-bold lh-0">TypeScript</a>
-
-
-                                                                    <span className="text-gray-400 fw-semibold d-block fs-6">Better Tooling</span>
-
-                                                                </div>
-
-                                                            </div>
-
-
-                                                            <div className="d-flex align-items-center w-100 mw-125px">
-
-                                                                <div className="progress h-6px w-100 me-2 bg-light-success">
-                                                                    {/* <div className="progress-bar bg-success" role="progressbar" style="width: 82%" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100"></div> */}
-                                                                </div>
-
-
-                                                                <span className="text-gray-400 fw-semibold">82%</span>
-
-                                                            </div>
-
-                                                        </div>
-
-                                                    </div>
-
-                                                </div>
-
-                                            </div>
-
-
-                                            <div className="col-xl-8">
-
-                                                <div className="card card-flush h-xl-100">
-
-                                                    <div className="card-header pt-7">
-
-                                                        <h3 className="card-title align-items-start flex-column">
-                                                            <span className="card-label fw-bold text-gray-800">Learn Activity</span>
-                                                            <span className="text-gray-400 mt-1 fw-semibold fs-6">Hours per course</span>
-                                                        </h3>
-
-
-                                                        <div className="card-toolbar">
-
-                                                            <div data-kt-daterangepicker="true" data-kt-daterangepicker-opens="left" className="btn btn-sm btn-light d-flex align-items-center px-4">
-
-                                                                <div className="text-gray-600 fw-bold">Loading date range...</div>
-
-                                                                <i className="ki-outline ki-calendar-8 fs-1 ms-2 me-0"></i>
-                                                            </div>
-
-                                                        </div>
-
-                                                    </div>
-
-
-                                                    <div className="card-body d-flex align-items-end px-0 pt-3 pb-5">
-
-                                                        <div id="kt_charts_widget_18_chart" className="h-325px w-100 min-h-auto ps-4 pe-6"></div>
-
-                                                    </div>
-
-                                                </div>
-
-                                            </div>
-
-                                        </div>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
+                            
 
 
                             <div id="kt_app_footer" className="app-footer">

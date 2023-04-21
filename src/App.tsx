@@ -4,6 +4,7 @@ import Login from "./pages/login";
 import OnlineCoures from "./pages/online-courses";
 import School from "./pages/school";
 import OverviewProfile from "./pages/user-profile/overview";
+import PageLayout from "./components/Layout/PageLayout";
 const App = () => {
   return (
     <BrowserRouter>
@@ -11,7 +12,7 @@ const App = () => {
         <Route path="/auth/login" element={<Login />} />
         <Route path="/" element={<OnlineCoures />} />
         <Route path="/school" element={<School />} />
-        <Route path="/user-profile/overview" element={<OverviewProfile />} />
+        <Route path="/user-profile/overview" element={<OnlineCoures />} />
       </Routes>
     </BrowserRouter>
   )
