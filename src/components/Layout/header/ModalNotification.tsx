@@ -149,236 +149,104 @@ const ModalNotification = () => {
                             </div>
 
                         </div>
-
-
                         <div className="text-center px-4">
                             <img className="mw-100 mh-200px" alt="image" src="assets/media/illustrations/sketchy-1/1.png" />
                         </div>
-
                     </div>
-
                 </div>
-
-
                 <div className="tab-pane fade" id="kt_topbar_notifications_3" role="tabpanel">
-
                     <div className="scroll-y mh-325px my-5 px-8">
-
                         <div className="d-flex flex-stack py-4">
-
                             <div className="d-flex align-items-center me-2">
-
                                 <span className="w-70px badge badge-light-success me-4">200 OK</span>
-
-
                                 <a href="#" className="text-gray-800 text-hover-primary fw-semibold">New order</a>
-
                             </div>
-
-
                             <span className="badge badge-light fs-8">Just now</span>
-
                         </div>
-
-
                         <div className="d-flex flex-stack py-4">
-
                             <div className="d-flex align-items-center me-2">
-
                                 <span className="w-70px badge badge-light-danger me-4">500 ERR</span>
-
-
                                 <a href="#" className="text-gray-800 text-hover-primary fw-semibold">New customer</a>
-
                             </div>
-
-
                             <span className="badge badge-light fs-8">2 hrs</span>
-
                         </div>
-
-
                         <div className="d-flex flex-stack py-4">
-
                             <div className="d-flex align-items-center me-2">
-
                                 <span className="w-70px badge badge-light-success me-4">200 OK</span>
-
-
                                 <a href="#" className="text-gray-800 text-hover-primary fw-semibold">Payment process</a>
-
                             </div>
-
-
                             <span className="badge badge-light fs-8">5 hrs</span>
-
                         </div>
-
-
                         <div className="d-flex flex-stack py-4">
-
                             <div className="d-flex align-items-center me-2">
-
                                 <span className="w-70px badge badge-light-warning me-4">300 WRN</span>
-
-
                                 <a href="#" className="text-gray-800 text-hover-primary fw-semibold">Search query</a>
-
                             </div>
-
-
                             <span className="badge badge-light fs-8">2 days</span>
-
                         </div>
-
-
                         <div className="d-flex flex-stack py-4">
-
                             <div className="d-flex align-items-center me-2">
-
                                 <span className="w-70px badge badge-light-success me-4">200 OK</span>
-
-
                                 <a href="#" className="text-gray-800 text-hover-primary fw-semibold">API connection</a>
-
                             </div>
-
-
                             <span className="badge badge-light fs-8">1 week</span>
-
                         </div>
-
-
                         <div className="d-flex flex-stack py-4">
-
                             <div className="d-flex align-items-center me-2">
-
                                 <span className="w-70px badge badge-light-success me-4">200 OK</span>
-
-
                                 <a href="#" className="text-gray-800 text-hover-primary fw-semibold">Database restore</a>
-
                             </div>
-
-
                             <span className="badge badge-light fs-8">Mar 5</span>
-
                         </div>
-
-
                         <div className="d-flex flex-stack py-4">
-
                             <div className="d-flex align-items-center me-2">
-
                                 <span className="w-70px badge badge-light-warning me-4">300 WRN</span>
-
-
                                 <a href="#" className="text-gray-800 text-hover-primary fw-semibold">System update</a>
-
                             </div>
-
-
                             <span className="badge badge-light fs-8">May 15</span>
-
                         </div>
-
-
                         <div className="d-flex flex-stack py-4">
-
                             <div className="d-flex align-items-center me-2">
-
                                 <span className="w-70px badge badge-light-warning me-4">300 WRN</span>
-
-
                                 <a href="#" className="text-gray-800 text-hover-primary fw-semibold">Server OS update</a>
-
                             </div>
-
-
                             <span className="badge badge-light fs-8">Apr 3</span>
-
                         </div>
-
-
                         <div className="d-flex flex-stack py-4">
-
                             <div className="d-flex align-items-center me-2">
-
                                 <span className="w-70px badge badge-light-warning me-4">300 WRN</span>
-
-
                                 <a href="#" className="text-gray-800 text-hover-primary fw-semibold">API rollback</a>
-
                             </div>
-
-
                             <span className="badge badge-light fs-8">Jun 30</span>
-
                         </div>
-
-
                         <div className="d-flex flex-stack py-4">
-
                             <div className="d-flex align-items-center me-2">
-
                                 <span className="w-70px badge badge-light-danger me-4">500 ERR</span>
-
-
                                 <a href="#" className="text-gray-800 text-hover-primary fw-semibold">Refund process</a>
-
                             </div>
-
-
                             <span className="badge badge-light fs-8">Jul 10</span>
-
                         </div>
-
-
                         <div className="d-flex flex-stack py-4">
-
                             <div className="d-flex align-items-center me-2">
-
                                 <span className="w-70px badge badge-light-danger me-4">500 ERR</span>
-
-
                                 <a href="#" className="text-gray-800 text-hover-primary fw-semibold">Withdrawal process</a>
-
                             </div>
-
-
                             <span className="badge badge-light fs-8">Sep 10</span>
-
                         </div>
-
-
                         <div className="d-flex flex-stack py-4">
-
                             <div className="d-flex align-items-center me-2">
-
                                 <span className="w-70px badge badge-light-danger me-4">500 ERR</span>
-
-
                                 <a href="#" className="text-gray-800 text-hover-primary fw-semibold">Mail tasks</a>
-
                             </div>
-
-
                             <span className="badge badge-light fs-8">Dec 10</span>
-
                         </div>
-
                     </div>
-
-
                     <div className="py-3 text-center border-top">
                         <a href="../../demo39/dist/pages/user-profile/activity.html" className="btn btn-color-gray-600 btn-active-color-primary">View All
                             <i className="ki-outline ki-arrow-right fs-5"></i></a>
                     </div>
-
                 </div>
-
             </div>
-
         </div>
     )
 }
