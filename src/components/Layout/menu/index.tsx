@@ -1,4 +1,5 @@
 import React from 'react'
+import Tippy from '@tippyjs/react'
 
 const Menu = () => {
     return (
@@ -17,7 +18,7 @@ const Menu = () => {
                     <i className="ki-outline ki-calendar-add fs-2x"></i>
                 </a>
             </div>
-
+            
         </div>
     )
 }
