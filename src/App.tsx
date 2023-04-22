@@ -1,12 +1,12 @@
 
 import { BrowserRouter, Routes, Route} from "react-router-dom";
-import Projects from "./pages/projects";
+import OnlineCourse from "./pages/online-courses";
 
 const App = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Projects />} />
+        <Route path="/" element={<OnlineCourse />} />
       </Routes>
     </BrowserRouter>
   )
